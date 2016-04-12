@@ -1,0 +1,39 @@
+h1 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #555555;
+    border-width: 0px 0px 2px;
+    border-style: solid;
+    border-color: grey;
+}
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+}
+.page-wrapper {
+    border: 1px solid black;
+    border-radius: 25px;
+    max-width: 75%;
+    margin: 0 auto;
+}
+footer a{
+  color: rgb(0,0,150);
+  font-size: 75%;
+}
+footer{
+  background-color: #CCCCCC;
+}
+aside a{
+  color: #00EEFF;
+  font-style: underlined
+}
+.requirements, .benefits, .participation, .explanation, .preamble, .summary {
+  border-bottom: solid;
+  border-width: thick;
+  border-color: #AAAAAA;
+}
+.summary p{
+  font-size: 150%
+}
