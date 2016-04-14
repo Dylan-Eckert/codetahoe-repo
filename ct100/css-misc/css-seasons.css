@@ -1,0 +1,40 @@
+.wrapper{
+  border: 5px solid black;
+  border-radius: 25px;
+  padding: 5px;
+}
+p {
+  border: 2px solid black;
+  border-radius: 25px;
+  color: white;
+}
+#fallp{
+  width: 490px;
+  height: 302px;
+  padding: 5px;
+  background-size: 125%;
+  background-image: url("https://github.com/CodeTahoe/CT100/blob/master/exercises/css/season-site/assets/images/autumn.jpg?raw=true");
+  position: relative;
+  left: 15px
+}
+#winterp{
+  width: 490px;
+  height: 302px;
+  padding: 5px;
+  background-size: 100%;
+  background-image: url("https://github.com/CodeTahoe/CT100/blob/master/exercises/css/season-site/assets/images/winter.jpg?raw=true")
+}
+#springp{
+  width: 490px;
+  height: 302px;
+  padding: 5px;
+  background-size: 100%;
+  background-image: url("https://github.com/CodeTahoe/CT100/blob/master/exercises/css/season-site/assets/images/spring.jpg?raw=true")
+}
+#summerp{
+  width: 490px;
+  height: 302px;
+  padding: 5px;
+  background-size: 100%;
+  background-image: url("https://github.com/CodeTahoe/CT100/blob/master/exercises/css/season-site/assets/images/summer.jpg?raw=true")
+}
