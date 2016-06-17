@@ -1,0 +1,36 @@
+header{
+  border: 2px solid red;
+  position: fixed width 100%;
+  background-image: url("https://i.ytimg.com/vi/gmJgW-yMAIg/maxresdefault.jpg");
+  background-size: 150%;
+  background-position: center;
+  color: white;
+}
+
+#main li a{
+  color: white;
+}
+
+#audio{
+  border: 2px solid blue;
+  position: relative;
+  width: 50%;
+  margin: 0px 25%;
+}
+.banner{
+  border: 2px solid orange;
+}
+#main{
+  border: 2px solid black;
+  clear: both;
+  position: relative;
+  width: 50%;
+  margin: 0px 25%
+}
+#elonform{
+  border: 2px solid black;
+  clear: both;
+  position: relative;
+  width: 50%;
+  margin: 0px 25%
+}
