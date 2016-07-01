@@ -1,0 +1,55 @@
+body {
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/eyecons-bg-landscape.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    height: 1024px;
+}
+main {
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 1024px;
+    height: 1010px;
+    margin: 0 auto;
+}
+header {
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/eyecons-backplate-landscape-default.png");
+    background-position: center;
+    height: 120px;
+    width: 1024px;
+    margin: 0 auto;
+}
+#stats {
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/eyecons-bar-landscape.png");
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+#pause {
+  background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/pause-landscape.png");
+  width: 70px;
+  height: 30px;
+  margin: 0 auto;
+  background-position:center left;
+  border-radius: 15px
+}
+#help{
+  background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/help-landscape.png");
+  width: 70px;
+  height: 30px;
+  margin: 0 auto;
+  background-position:center right;
+  border-radius: 15px
+}
+#reset {
+  background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/startnewgame-landscape.png");
+  width: 170px;
+  height: 30px;
+  margin: 0 auto;
+  background-position:center left;
+  border-radius: 15px
+}
