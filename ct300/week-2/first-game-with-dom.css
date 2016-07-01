@@ -1,0 +1,22 @@
+body {
+    border: 1px dashed black;
+}
+header {
+    border: 1px solid blue;
+}
+article {
+    border: 1px solid red;
+}
+#message {
+    border: 1px solid orange;
+    height: 50px;
+    padding-top: 50px;
+    color: red
+}
+#guess-list {
+    border: 1px solid green;
+    height: 50px;
+}
+#guess {
+    border: 1px solid green;
+}
