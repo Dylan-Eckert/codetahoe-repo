@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Eyecons Game Page</title>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <aside id="stats">
+                <button id="logOut" type="button" name="Log Out"></button>
+                <button id="settings" type="button" name="Settings"></button>
+                <div id="timer">
+                    <div>
+                        <p id="clock"><span id="minute">2</span>:<span id="second">00</span></p>
+                        <p id="time_start">Qualifying Time: 2:00</p>
+                        <p><span id="tileRem">50</span> pairs remaining</p>
+                    </div>
+                </div>
+            </aside>
+        </header>
+        <aside id="button">
+            <button id="start-new-game" type="button" name="Start New Game"></button>
+            <button id="pause" type="button" name="Pause"></button>
+            <button id="help" type="button" name="Help"></button>
+        </aside>
+        <aside id="Boosts">
+        </aside>
+        <aside id="tile-board">
+            <aside class="slots">
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+                <div name="Tile Slot" class="tile-slot"></div>
+            </aside>
+        </aside>
+        <aside id="counters">
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <br>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <br>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <br>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <br>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <br>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <br>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+            <div name="Tile Counter" class="tile-counters"></div>
+        </aside>
+    </main>
+    <link rel="stylesheet" type="text/css" href="eyecons-game.css">
+    <script type="text/javascript" src="eyecons-game.js"></script>
+
+</body>

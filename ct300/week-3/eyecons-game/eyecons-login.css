@@ -1,0 +1,107 @@
+body {
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/eyecons-bg-landscape.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+main {
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/eyecons-splash.png");
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    width: 1024px;
+    height: 1024px;
+    background-position: center;
+    margin: 0 auto;
+}
+#log-on-form {
+    height: 130px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 38%;
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/eyecons-bg-landscape.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#sign-in-title {
+    font-size: 30px;
+    height: 60px;
+    width: 140px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: -105px;
+    margin-bottom: 43px;
+    padding-top: 10px;
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/eyecons-bg-landscape.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sign-in-boxes {
+    border-radius: 5px;
+    margin: 5px 43px;
+    width: 100px;
+    text-align: center;
+}
+#submit {
+    margin: 0 70px auto;
+}
+form {
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+#play1 {
+    position: static;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 3px solid grey;
+    height: 78px;
+    width: 78px;
+    margin-left: 421px;
+    margin-top: 181px;
+    margin-right: 108px;
+    margin-bottom: 13px;
+}
+#help1 {
+    position: static;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 3px solid grey;
+    height: 78px;
+    width: 78px;
+}
+#help2 {
+    position: static;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 3px solid grey;
+    height: 78px;
+    width: 78px;
+    margin-left: 232px;
+    margin-right: 202px;
+}
+#play2 {
+    position: static;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 3px solid grey;
+    height: 78px;
+    width: 78px;
+    margin-right: 50px;
+}
+#blank {
+    position: static;
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/home-screen-blank-tile.png");
+    border-radius: 10px;
+    border: none;
+    height: 76px;
+    width: 80px;
+    float: right;
+    margin-right: 237px;
+    margin-top: 0px;
+}

@@ -1,0 +1,155 @@
+body {
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/eyecons-bg-landscape.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    height: 1024px;
+}
+main {
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 1024px;
+    height: 1010px;
+    margin: 0 auto;
+}
+header {
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/eyecons-backplate-landscape-default.png");
+    background-position: center;
+    height: 120px;
+    width: 1024px;
+    margin: 0 auto;
+}
+#stats {
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/eyecons-bar-landscape-2.png");
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+#timer {
+    position: absolute;
+    border: none;
+    float: left;
+    width: 289px;
+    height: 104px;
+    margin-left: 25px;
+    margin-top: -28px;
+    border-radius: 0px 0px 19px 0px;
+    text-align: center;
+    font-size: 14px;
+    color: greenyellow;
+    text-shadow: 2px 2px black;
+}
+#logOut {
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/logout-icon.png");
+    width: 26px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+#settings {
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/settings-icon.png");
+    width: 26px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+#pause {
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/pause-landscape.png");
+    width: 70px;
+    height: 30px;
+    margin: 0 auto;
+    background-position: center left;
+    border-radius: 15px;
+}
+#help {
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/help-landscape.png");
+    width: 70px;
+    height: 30px;
+    margin: 0 auto;
+    background-position: center right;
+    border-radius: 15px;
+    float: right;
+}
+#start-new-game {
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/startnewgame-landscape.png");
+    width: 170px;
+    height: 30px;
+    margin: 0 auto;
+    background-position: center left;
+    border-radius: 15px;
+}
+#tile-board {
+    width: 816px;
+    margin: 0 auto;
+    margin-top: 50px;
+    visibility: visible;
+}
+#counters {
+    position: absolute;
+    margin-left: 174px;
+    margin-top: -24px;
+    display: none;
+}
+.tile-counters {
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/home-screen-blank-tile.png");
+    border-radius: 10px;
+    border: 2px solid grey;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 30px 78px 44px 0px;
+    text-align: center;
+    font-size: 18px;
+    color: orange;
+    z-index: 5;
+}
+.tile-slot {
+    position: static;
+    background-color: rgba(0, 0, 0, 0.5);
+    ;
+    border-radius: 10px;
+    border: none;
+    height: 88px;
+    width: 88px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    margin-right: 9px;
+    float: left;
+}
+.woodenTile {
+    background-image: url("/Users/dylan-eckert/GitHub/codetahoe-repo/ct300/week-3/eyecons-game/eyecon-game-assets/images/eyecons-tile-plain-88x88.png");
+    height: 88px;
+    width: 88px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 10px;
+}
+.image {
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.tileClicked {
+    transform: scale(1.1, 1.1);
+    border: white 2px solid;
+    border-radius: 16px;
+}
+.layer2 {
+    margin: -7px 0px 0px -7px;
+}
+.layer3 {
+    margin: -14px 0px 0px -14px;
+}
