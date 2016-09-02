@@ -1,0 +1,143 @@
+
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CORE STYLES */
+
+* {
+	font-family: arial, sans-serif;
+}
+
+html, body, #cover {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #000 url('http://www.luvthat.com/wp-content/uploads/2015/03/pi_pie_001.jpg') no-repeat;
+  background-size: cover;
+}
+
+#cover {
+  background-color: rgba(0,0,0,.5);
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#main {
+  position: absolute;
+  width: 600px;
+  margin-left: -300px;
+  color: #fff;
+  top: 20%;
+  left: 50%;
+}
+
+header {
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 3em;
+  text-shadow: 2px 2px rgba(0,0,0,.5);
+}
+
+p {
+  margin-top: 20px;
+}
+
+article {
+  margin-top: 50px;
+  text-align: center;
+}
+
+input, button {
+  height: 30px;
+  border-radius: 6px;
+}
+
+ul {
+  margin-top: 30px;
+}
+
+li {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.red {
+  color: #f00;
+}
+
+.white {
+  color: #fff;
+}
+
+.blue {
+  color: #0ff;
+}
+
+.green {
+  color: #0f0;
+}
+
+.purple {
+  color: #ff99ff;
+}
+
+.orange {
+  color: #f90;
+}

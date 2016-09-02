@@ -1,0 +1,380 @@
+
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CORE STYLES */
+* {
+  font-family: arial, sans-serif;
+}
+
+p {
+  margin: 30px 0;
+}
+
+h1 {
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+h1 > small {
+	font-size: .5em;
+	line-height: 10px;
+	vertical-align: top;
+}
+
+h2 {
+
+	font-size: 2em;
+	color: #444;
+	width: 100%;
+	padding: 10px;
+	background: #eee;
+	border-radius: 10px;
+	margin: 30px 0;
+	border: 1px dotted #ddd;
+}
+
+h3 {
+
+	font-size: 1.7em;
+	color: #666;
+}
+
+h4 {
+
+	font-size: 1.4em;
+	color: #888;
+}
+
+h5 {
+
+	font-size: 1em;
+	color: #333;
+}
+
+
+#home {
+	width: 100%;
+	background-color: #333;
+	padding-top: 20px;
+	color:  #fff;
+	text-shadow: 2px 2px #333;
+	background: transparent url('https://i.ytimg.com/vi/gmJgW-yMAIg/maxresdefault.jpg') no-repeat left center;
+	background-size: cover;
+}
+
+#home h1, #home p {
+	padding-left: 30px;
+}
+
+nav#main {
+	list-style-type: none;
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	background: rgba(0,0,0,.7);
+}
+
+nav#main ul li:first-of-type {
+	display: inline;
+	padding-left: 0;
+}
+
+nav#main ul li {
+	display: inline;
+	padding-left: 12%;
+}
+
+nav#main ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+main {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+footer#main {
+	width: 100%;
+	background: #ccc;
+	color:  #777;
+	padding: 20px;
+	margin-top: 30px;
+	border-top: 1px solid #333;
+}
+
+#container {
+	padding: 30px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.banner {
+	width: 100%;
+	padding-left: 20px;
+}
+
+#audio {
+
+	float: right;
+	top: -100px;
+	position: relative;
+}
+
+#audio h3 {
+	font-size: 1em;
+	font-style: italic;
+}
+
+#audio figcaption {
+	font-size: .8em;
+	text-align: center;
+	color: #444;
+}
+
+.back {
+	float: right;
+	margin-top: -15px;
+	font-size: .7em;
+}
+
+#comments {
+margin-top: 30px;
+  padding-right: 20px;
+}
+
+#comments h4 {
+	width: 100%;
+	border-radius: 5px;
+	background: #eee;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#comments article p {
+	margin: 5px 0;
+}
+
+#comments small {
+	font-size: .8em;
+	font-style: italic;
+}
+
+#comments article {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #ddd;
+}
+
+#launch-table, #related-content {
+	margin: 20px inherit;
+	padding: 20px;
+	border-top: 1px dotted #ddd;
+	border-bottom: 1px dotted #ddd;
+	background: #eee;
+	border-radius: 10px;
+}
+
+#launch-table h3 {
+	font-size: 1.4em;
+}
+
+table {
+	width: 100%;
+	background: white;
+}
+
+table th {
+	background: #222;
+	color: white;
+}
+
+table td {
+	border: 1px dashed #ddd;
+}
+
+table td, table th{
+	padding: 10px;
+}
+
+#related-content {
+	width: 100%;
+	overflow: auto;
+	margin-top: 30px;
+}
+
+#related-content h3 {
+	font-size: 1.3em;
+	padding-bottom: 20px;
+}
+
+#related-content li {
+	margin: 20px 0;
+}
+
+#related-content li:before {
+	content: "> ";
+}
+
+#related-content li a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #63aff3;
+}
+
+#related-content > section {
+  float: left;
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+
+#related-content nav {
+  float: left;
+  vertical-align: top;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+#related-content nav > ul > li {
+  vertical-align: top;
+  margin-top: 0;
+}
+
+#related-content video:first-of-type {
+  margin-top: -10px;
+}
+
+#related-content figcaption {
+	width: 300px;
+  max-width: 70%;
+	text-align: center;
+	font-size: .7em;
+}
+
+#related-content video, #related-content iframe {
+	max-width: 300px;
+	max-height: 193px;
+}
+
+#related-content figure {
+	text-align: center;
+  margin-bottom: 20px;
+}
+
+#related-content img {
+	max-height: 300px;
+}
+
+#contact article {
+	overflow: auto;
+	margin-bottom: 30px;
+
+}
+
+#contact {
+	margin-top: 50px;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #ccc;
+}
+
+#contact h3 {
+	margin-bottom: 20px;
+}
+
+#contact h4 {
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+
+#contact address {
+	border: 1px dashed #ccc;
+	padding: 20px;
+
+}
+
+#contact form {
+	border: 1px dotted #ccc;
+	border-radius: 10px;
+	padding: 20px;
+	background: #f6f6f6;
+}
+
+
+#contact form section {
+	margin: 15px 0;
+}
+
+#contact label.input{
+
+	display: block;
+	color: #666;
+	padding-bottom: 3px;
+}
+
+#contact label:not(.input){
+
+	padding-left: 10px;
+	font-size: .8em;
+}
+
+#contact form textarea {
+  width: 100%;
+  padding-right: 10px;
+}
+
+.button {
+    background-color: #222;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+}

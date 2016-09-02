@@ -1,0 +1,68 @@
+* {
+  font-family: arial, sans-serif;
+}
+
+body {
+  background-color: #000;
+}
+
+.wrapper {
+  width: 790px;
+  margin: auto;
+  list-style-type: none;
+}
+
+#clock, #clock-controls {
+  display: block;
+  padding-bottom: 20px;
+  height: 70px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.5em;
+  color: #fff;
+}
+
+#clock-controls a {
+  width: 150px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.7em;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #3B5998;
+  padding: 5px;
+  margin: 5px;
+}
+
+.tile-container{
+  height: 88px;
+  width: 88px;
+  display: inline;
+  float: left;
+}
+
+.tile-container div {
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  background: url('eyecons/tile-bg.png') no-repeat 0 0;
+}
+
+.level2 {
+  z-index: 2;
+  margin-top: -4px;
+  margin-left: -4px;
+}
+
+.level3 {
+  z-index: 3;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+
+img {
+  margin-top: -2px;
+  margin-left: -2px;
+  border-radius: 5px;
+}

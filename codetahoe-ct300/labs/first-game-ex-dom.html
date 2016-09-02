@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Core Meta -->
+    <title>There's always time for pie!</title>
+    <meta name="description" content="The case of the missing pie.">
+    <meta name="author" content="Rush Tehrani">
+
+    <!-- Open Graph -->
+    <meta property='og:title' content="There's always time for pie!" />
+    <meta property="og:description" content="The case of the missing pie." />
+    <meta property='og:type' content="website" />
+    <meta property="og:url" content="http://www.pie.com" />
+    <meta property='og:image' content="http://www.luvthat.com/wp-content/uploads/2015/03/pi_pie_001.jpg" />
+
+    <!-- Other Meta -->
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="first-game-dom.css">
+
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="cover">
+      <div class="wrapper">
+        <div id="main">
+          <header>
+            <h1>Where is my PIE!</h1>
+            <p>Follow the prompts and help Rush find his pie.  Good luck!</p>
+            <p><span id="counter">20</span> seconds left!</p>
+          </header>
+          <article>
+            <p id="display"></p>
+            <form action="javascript://">
+              <input type="text" id="guess"/>
+              <button id="submit" type="submit">GUESS!</button>
+            </form>
+
+            <section>
+              <ul id="guess-list"></ul>
+            </section>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="first-game-dom.js"></script>
+  </body>
+</html>
